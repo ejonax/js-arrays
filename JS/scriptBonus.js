@@ -17,7 +17,7 @@ console.log(reversedTeachers);
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
 const longNames = [ ];
 
-for(var i = 0; i < teachers.length; i++){  // il ciclo per controllare tutta l'array teachers
+for(let i = 0; i < teachers.length; i++){  // il ciclo per controllare tutta l'array teachers
   if(teachers[i].length >=5){ // il controllo se il nome di un insegnante è lungo >=5 chars
     longNames.push(teachers[i]); // se passa il controllo allora si aggiunge alla fine dell'array longNames
     
